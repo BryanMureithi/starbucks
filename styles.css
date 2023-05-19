@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: slateblue;
+}
+.header{
+    margin-top: 12px;
+    color: white;
+    font-size: 18px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 300px;
+    background-color: rgb(30, 24, 70);
+    color: white;
+    padding: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 2px #8d8888;
+    margin-top: 5%;
+}
+
+
+fieldset{
+    border: none;
+    margin-top: 16px;
+}
+h1,p{
+    text-align: center;
+}
+
+p{
+    margin-top: 16px;
+    font-style: italic;
+    font-weight: 50;
+    color: rgb(203, 202, 202);
+}
+
+input,textarea{
+    display: block;
+}
+
+input[type=text],input[type=email],input[type=number], select{
+    padding: 8px;
+    border-radius: 6px;
+    width: 80%;
+    border: 1px solid white;
+    margin-top: 8px;
+    margin-bottom: 28px;
+}
+
+input[type=radio]{
+    display: inline;
+}
+
+input[type=checkbox]{
+    display: inline;
+}
+
+textarea{
+    width: 80%;
+    border-radius: 6px;
+    border: 1px solid white;
+    margin-top: 8px;
+}
+
+label{
+    margin-bottom: 8px;
+    display: block;
+}
+
+input[type=submit] {
+    background-color: rgb(58, 49, 119);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 80%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;   
+}
